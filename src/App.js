@@ -4,16 +4,17 @@ import Main from "./components/Main";
 import ClassComponent from "./components/ClassComponent";
 import Navbar from "./Navbar";
 import Home from "./Home";
+import Create from "./components/Create";
 
 function App() {
   const title = "React Expense Tracker";
 
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="content">
         <h1>{title}</h1>
-        <Main /> <ClassComponent /> <Home />
+        <Main />
       </div>
     </div>
   );
