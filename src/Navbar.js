@@ -1,3 +1,5 @@
+import Home from "./Home";
+
 const Navbar = () => {
   return (
     <nav className="navbar">
