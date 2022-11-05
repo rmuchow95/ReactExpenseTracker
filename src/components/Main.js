@@ -5,7 +5,6 @@ function Main(props) {
 
   return (
     <div>
-      <button onClick={handleClick}>Click me</button>
       <table className="table">
         <thead>
           <tr>
@@ -36,6 +35,7 @@ function Main(props) {
           </tr>
         </tbody>
       </table>
+      <button onClick={handleClick}>Click me</button>
     </div>
   );
 }

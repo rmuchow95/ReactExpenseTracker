@@ -4,7 +4,7 @@ import React, { Component } from "react";
 
 class ClassComponent extends Component {
   render() {
-    return <h1>The First Step to Money Success {this.props.name}</h1>;
+    return <h1>{this.props.name}</h1>;
   }
 }
 
